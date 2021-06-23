@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branchs",
+  "info": {
+    "name": "branchs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cordination_x": {
+      "type": "float"
+    },
+    "cordination_y": {
+      "type": "float"
+    }
+  }
+}
