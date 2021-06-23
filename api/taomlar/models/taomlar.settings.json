@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taomlars",
+  "info": {
+    "name": "Taomlar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "menu": {
+      "model": "menu",
+      "via": "taomlars"
+    }
+  }
+}

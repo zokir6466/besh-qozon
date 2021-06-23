@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/taomlars",
+      "handler": "taomlar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taomlars/count",
+      "handler": "taomlar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taomlars/:id",
+      "handler": "taomlar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/taomlars",
+      "handler": "taomlar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/taomlars/:id",
+      "handler": "taomlar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/taomlars/:id",
+      "handler": "taomlar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

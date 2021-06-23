@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "texts",
+  "info": {
+    "name": "text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
